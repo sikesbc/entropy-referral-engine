@@ -1,0 +1,1 @@
+{"id":"073ce19f8473d5cb","method":"GET","url":"https://entropy.io/api/geo/status","path":"/api/geo/status","query":{},"request":null,"status":200,"contentType":"application/json","route":"index","capturedAt":"2026-10-29T21:43:24.571Z","response":{"restricted":true,"country":"US","mode":"trading","reason":"country"}}

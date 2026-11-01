@@ -1,0 +1,11 @@
+import "server-only"
+
+export class SiteError extends Error {
+  constructor(
+    readonly status: number,
+    readonly code: string,
+    message: string,
+  ) {
+    super(message)
+  }
+}

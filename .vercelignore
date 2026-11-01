@@ -1,0 +1,5 @@
+.verify/
+.verify-*.log
+.next/
+node_modules/
+.env*.local

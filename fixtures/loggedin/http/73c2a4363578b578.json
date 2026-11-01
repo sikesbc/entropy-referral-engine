@@ -1,0 +1,1 @@
+{"id":"73c2a4363578b578","method":"GET","url":"https://entropy.io/api/referrals/payouts","path":"/api/referrals/payouts","query":{},"request":null,"status":200,"contentType":"application/json","route":"referrals-519c7b41","capturedAt":"2026-10-29T22:05:24.197Z","response":{"success":true,"data":{"enabled":true,"claims":[]}}}

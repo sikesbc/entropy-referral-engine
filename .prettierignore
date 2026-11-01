@@ -1,0 +1,6 @@
+fixtures
+public
+.next
+pnpm-lock.yaml
+scripts/extract-fixtures.mjs
+scripts/verify*

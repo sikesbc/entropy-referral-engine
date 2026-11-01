@@ -1,0 +1,1 @@
+{"id":"97ae61ff5820207f","method":"POST","url":"https://api.hyperliquid.xyz/info","path":"/info","query":{},"request":{"type":"exchangeStatus"},"status":200,"contentType":"application/json","route":"index","capturedAt":"2026-10-29T21:34:05.634Z","response":{"specialStatuses":null,"time":1793309645376}}

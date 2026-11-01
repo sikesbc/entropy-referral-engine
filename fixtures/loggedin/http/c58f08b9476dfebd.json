@@ -1,0 +1,1 @@
+{"id":"c58f08b9476dfebd","method":"GET","url":"https://entropy.io/api/referrals/rewards/config","path":"/api/referrals/rewards/config","query":{},"request":null,"status":200,"contentType":"application/json","route":"referrals-519c7b41","capturedAt":"2026-10-29T22:05:24.190Z","response":{"data":{"enabled":false}}}

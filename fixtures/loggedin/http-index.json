@@ -1,0 +1,1955 @@
+[
+ {
+  "id": "de1f1f8002b36a1d",
+  "method": "GET",
+  "url": "https://entropy.io/api/account/me",
+  "path": "/api/account/me",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.011Z",
+  "requestType": null
+ },
+ {
+  "id": "a728d4d93786489d",
+  "method": "GET",
+  "url": "https://entropy.io/api/compliance/trading-attestation",
+  "path": "/api/compliance/trading-attestation",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.245Z",
+  "requestType": null
+ },
+ {
+  "id": "c4a7e15b48ef73c2",
+  "method": "GET",
+  "url": "https://entropy.io/api/copytrade/leaders/popular",
+  "path": "/api/copytrade/leaders/popular",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:29.234Z",
+  "requestType": null
+ },
+ {
+  "id": "a0e076365af1b0f7",
+  "method": "GET",
+  "url": "https://entropy.io/api/discovery/smart-money",
+  "path": "/api/discovery/smart-money",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:29.201Z",
+  "requestType": null
+ },
+ {
+  "id": "d30b4915be357d78",
+  "method": "GET",
+  "url": "https://entropy.io/api/discovery/top-traders?window=30d&order=open_pnl&known=false",
+  "path": "/api/discovery/top-traders",
+  "query": {
+   "window": "30d",
+   "order": "open_pnl",
+   "known": "false"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.899Z",
+  "requestType": null
+ },
+ {
+  "id": "11a71284eea128ce",
+  "method": "GET",
+  "url": "https://entropy.io/api/discovery/top-traders?window=30d&order=total_pnl&known=false",
+  "path": "/api/discovery/top-traders",
+  "query": {
+   "window": "30d",
+   "order": "total_pnl",
+   "known": "false"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.720Z",
+  "requestType": null
+ },
+ {
+  "id": "69f13bad0afbe1a6",
+  "method": "GET",
+  "url": "https://entropy.io/api/discovery/top-traders?window=30d&order=total_pnl&known=true",
+  "path": "/api/discovery/top-traders",
+  "query": {
+   "window": "30d",
+   "order": "total_pnl",
+   "known": "true"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:28.011Z",
+  "requestType": null
+ },
+ {
+  "id": "87c53397437f9cf9",
+  "method": "GET",
+  "url": "https://entropy.io/api/discovery/top-traders?window=30d&order=volume&known=false",
+  "path": "/api/discovery/top-traders",
+  "query": {
+   "window": "30d",
+   "order": "volume",
+   "known": "false"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.799Z",
+  "requestType": null
+ },
+ {
+  "id": "6475e06737687e0a",
+  "method": "GET",
+  "url": "https://entropy.io/api/discovery/top-traders?window=7d&order=rank_climb&known=false",
+  "path": "/api/discovery/top-traders",
+  "query": {
+   "window": "7d",
+   "order": "rank_climb",
+   "known": "false"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.801Z",
+  "requestType": null
+ },
+ {
+  "id": "eead647ca0861b8c",
+  "method": "GET",
+  "url": "https://entropy.io/api/discovery/top-traders?window=7d&order=total_pnl&known=false",
+  "path": "/api/discovery/top-traders",
+  "query": {
+   "window": "7d",
+   "order": "total_pnl",
+   "known": "false"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.936Z",
+  "requestType": null
+ },
+ {
+  "id": "96cc83d2453156ff",
+  "method": "GET",
+  "url": "https://entropy.io/api/discovery/top-trades?feed=all&offset=0&limit=20",
+  "path": "/api/discovery/top-trades",
+  "query": {
+   "feed": "all",
+   "offset": "0",
+   "limit": "20"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.804Z",
+  "requestType": null
+ },
+ {
+  "id": "073ce19f8473d5cb",
+  "method": "GET",
+  "url": "https://entropy.io/api/geo/status",
+  "path": "/api/geo/status",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:24.571Z",
+  "requestType": null
+ },
+ {
+  "id": "b33da6e843f690cc",
+  "method": "GET",
+  "url": "https://entropy.io/api/markets?listingRevision=1793310209234.5-akzhq6gipvq",
+  "path": "/api/markets",
+  "query": {
+   "listingRevision": "1793310209234.5-akzhq6gipvq"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "referrals-519c7b41",
+  "capturedAt": "2026-10-29T22:06:54.484Z",
+  "requestType": null
+ },
+ {
+  "id": "5400a9e8b838df5d",
+  "method": "GET",
+  "url": "https://entropy.io/api/markets/highlights",
+  "path": "/api/markets/highlights",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T21:57:50.155Z",
+  "requestType": null
+ },
+ {
+  "id": "98cb8218a1741a59",
+  "method": "GET",
+  "url": "https://entropy.io/api/markets/live-ticks?coin=io%3AANTH",
+  "path": "/api/markets/live-ticks",
+  "query": {
+   "coin": "io:ANTH"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:24.619Z",
+  "requestType": null
+ },
+ {
+  "id": "1af079da87e56fd4",
+  "method": "GET",
+  "url": "https://entropy.io/api/markets/mobile-listings",
+  "path": "/api/markets/mobile-listings",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:24.613Z",
+  "requestType": null
+ },
+ {
+  "id": "586d31523e132bb0",
+  "method": "GET",
+  "url": "https://entropy.io/api/me/following",
+  "path": "/api/me/following",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:29.224Z",
+  "requestType": null
+ },
+ {
+  "id": "0cf76b82f5edc350",
+  "method": "GET",
+  "url": "https://entropy.io/api/referrals/attribution",
+  "path": "/api/referrals/attribution",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "referrals-519c7b41",
+  "capturedAt": "2026-10-29T22:05:24.195Z",
+  "requestType": null
+ },
+ {
+  "id": "2368606ba730c46f",
+  "method": "GET",
+  "url": "https://entropy.io/api/referrals/earnings",
+  "path": "/api/referrals/earnings",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "referrals-519c7b41",
+  "capturedAt": "2026-10-29T22:05:24.196Z",
+  "requestType": null
+ },
+ {
+  "id": "73c2a4363578b578",
+  "method": "GET",
+  "url": "https://entropy.io/api/referrals/payouts",
+  "path": "/api/referrals/payouts",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "referrals-519c7b41",
+  "capturedAt": "2026-10-29T22:05:24.197Z",
+  "requestType": null
+ },
+ {
+  "id": "e6d725bcda7ce15c",
+  "method": "GET",
+  "url": "https://entropy.io/api/referrals/program",
+  "path": "/api/referrals/program",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "referrals-519c7b41",
+  "capturedAt": "2026-10-29T22:05:23.147Z",
+  "requestType": null
+ },
+ {
+  "id": "bb7c8edd7d6f8969",
+  "method": "GET",
+  "url": "https://entropy.io/api/referrals/referred-users?page=1&pageSize=10&sortBy=joined&sortOrder=desc&scope=network&depth=1",
+  "path": "/api/referrals/referred-users",
+  "query": {
+   "page": "1",
+   "pageSize": "10",
+   "sortBy": "joined",
+   "sortOrder": "desc",
+   "scope": "network",
+   "depth": "1"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "referrals-519c7b41",
+  "capturedAt": "2026-10-29T22:05:24.466Z",
+  "requestType": null
+ },
+ {
+  "id": "61e30e1d6eae5caa",
+  "method": "GET",
+  "url": "https://entropy.io/api/referrals/referred-users?page=1&pageSize=10&sortBy=lifetime&sortOrder=desc",
+  "path": "/api/referrals/referred-users",
+  "query": {
+   "page": "1",
+   "pageSize": "10",
+   "sortBy": "lifetime",
+   "sortOrder": "desc"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "referrals-519c7b41",
+  "capturedAt": "2026-10-29T22:05:24.196Z",
+  "requestType": null
+ },
+ {
+  "id": "c58f08b9476dfebd",
+  "method": "GET",
+  "url": "https://entropy.io/api/referrals/rewards/config",
+  "path": "/api/referrals/rewards/config",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "referrals-519c7b41",
+  "capturedAt": "2026-10-29T22:05:24.190Z",
+  "requestType": null
+ },
+ {
+  "id": "80ddb5a8b87e7289",
+  "method": "GET",
+  "url": "https://entropy.io/api/referrals/tier",
+  "path": "/api/referrals/tier",
+  "query": {},
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "referrals-519c7b41",
+  "capturedAt": "2026-10-29T22:05:24.195Z",
+  "requestType": null
+ },
+ {
+  "id": "22525a0ed9755826",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310202300",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310202300"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "profile-be372437",
+  "capturedAt": "2026-10-29T22:04:50.443Z",
+  "requestType": null
+ },
+ {
+  "id": "ec8db00a90bd3e20",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310203046",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310203046"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "profile-be372437",
+  "capturedAt": "2026-10-29T22:06:09.743Z",
+  "requestType": null
+ },
+ {
+  "id": "6909a3c07208600a",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310203058",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310203058"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "profile-be372437",
+  "capturedAt": "2026-10-29T22:04:40.825Z",
+  "requestType": null
+ },
+ {
+  "id": "888471b467f187fc",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310203269",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310203269"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "profile-be372437",
+  "capturedAt": "2026-10-29T22:05:56.369Z",
+  "requestType": null
+ },
+ {
+  "id": "0aab908cf7e36d1b",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310204704",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310204704"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:38.513Z",
+  "requestType": null
+ },
+ {
+  "id": "84e9a15f565a8dfa",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310205123",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310205123"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.469Z",
+  "requestType": null
+ },
+ {
+  "id": "64e4401e74bf0287",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310206942",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310206942"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:45.636Z",
+  "requestType": null
+ },
+ {
+  "id": "9304642083aa0b8b",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310208289",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310208289"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T22:01:11.619Z",
+  "requestType": null
+ },
+ {
+  "id": "b53db8b4799bee1d",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310208325",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310208325"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T22:01:11.588Z",
+  "requestType": null
+ },
+ {
+  "id": "4aa67c80984f044f",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310210860",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310210860"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T22:01:12.083Z",
+  "requestType": null
+ },
+ {
+  "id": "faf9a68e09f96fd6",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310213709",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310213709"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T21:59:10.793Z",
+  "requestType": null
+ },
+ {
+  "id": "0e4c5e79e33da12b",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310215466",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310215466"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T21:58:31.569Z",
+  "requestType": null
+ },
+ {
+  "id": "136dcc33ec8cee68",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310216469",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310216469"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:44:00.370Z",
+  "requestType": null
+ },
+ {
+  "id": "1e0c9bb56f68cec6",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310218581",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310218581"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T21:58:37.226Z",
+  "requestType": null
+ },
+ {
+  "id": "9005e0f19c47bf7c",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310218614",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310218614"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T21:58:37.226Z",
+  "requestType": null
+ },
+ {
+  "id": "f9cea03b4809a736",
+  "method": "GET",
+  "url": "https://entropy.io/api/trading/fills?user=0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91&startTime=0&endTime=1793310220606",
+  "path": "/api/trading/fills",
+  "query": {
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": "0",
+   "endTime": "1793310220606"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T21:58:29.399Z",
+  "requestType": null
+ },
+ {
+  "id": "9c4170088c4dca5f",
+  "method": "GET",
+  "url": "https://entropy.io/api/wallet-profiles/identities?namespace=hyperliquid-mainnet&addresses=0x020ca66c30bec2c4fe3861a94e4db4a498a35872%2C0x469e9a7f624b04c24f0e64edf8d8a277e6bf58a5%2C0x8def9f50456c6c4e37fa5d3d57f108ed23992dae%2C0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
+  "path": "/api/wallet-profiles/identities",
+  "query": {
+   "namespace": "hyperliquid-mainnet",
+   "addresses": "0x020ca66c30bec2c4fe3861a94e4db4a498a35872,0x469e9a7f624b04c24f0e64edf8d8a277e6bf58a5,0x8def9f50456c6c4e37fa5d3d57f108ed23992dae,0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:30.112Z",
+  "requestType": null
+ },
+ {
+  "id": "27cd6d63a71dc864",
+  "method": "GET",
+  "url": "https://entropy.io/api/wallet-profiles/identities?namespace=hyperliquid-mainnet&addresses=0x38bdc44ad07a7adf2d84a7631259c7b7cea603b1%2C0x40a632026febd007b0e4431a29170507f7aa3896%2C0x5d45e1e56e38acbfce5b82393d6d21ffd8ec7410%2C0x6a2cec2bda4749f113676bd9a5f3e64277260efd%2C0x888e000c78b8f1aada5b3c99f880794907b76d77%2C0x9aaeadf3286fc2e25752396769b0adaafae2b161%2C0xa2e366c4e2d453cab49cc9c64f0670fd2fd060a3%2C0xbbfb6566ad064c233af6314aeb1eee4c26a5f921%2C0xc49ec554731a81f4bf4f3504cfb1dd3c484ccf74%2C0xe4d0446f51c1f95a40b24e168ce87dca23c05bb0%2C0xe63d6f9d856cb10b44e892291612d2385f273f53%2C0xf65742fa08fd1bffef8df00b3bf999bd874b3438%2C0xf7619dfb29b83bf5118fd0107c676156cd5e5605",
+  "path": "/api/wallet-profiles/identities",
+  "query": {
+   "namespace": "hyperliquid-mainnet",
+   "addresses": "0x38bdc44ad07a7adf2d84a7631259c7b7cea603b1,0x40a632026febd007b0e4431a29170507f7aa3896,0x5d45e1e56e38acbfce5b82393d6d21ffd8ec7410,0x6a2cec2bda4749f113676bd9a5f3e64277260efd,0x888e000c78b8f1aada5b3c99f880794907b76d77,0x9aaeadf3286fc2e25752396769b0adaafae2b161,0xa2e366c4e2d453cab49cc9c64f0670fd2fd060a3,0xbbfb6566ad064c233af6314aeb1eee4c26a5f921,0xc49ec554731a81f4bf4f3504cfb1dd3c484ccf74,0xe4d0446f51c1f95a40b24e168ce87dca23c05bb0,0xe63d6f9d856cb10b44e892291612d2385f273f53,0xf65742fa08fd1bffef8df00b3bf999bd874b3438,0xf7619dfb29b83bf5118fd0107c676156cd5e5605"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:29.276Z",
+  "requestType": null
+ },
+ {
+  "id": "217a0533abbdd116",
+  "method": "GET",
+  "url": "https://entropy.io/api/wallet-profiles/identities?namespace=hyperliquid-mainnet&addresses=0xd47587702a91731dc1089b5db0932cf820151a91%2C0xda744273f80b22412417f7cfe0503f3d721f987d%2C0xdfd526409007db0d524a62dedaaba7706736d88e%2C0xf517639a8872e756ac98d3c65507d2ebc25cc032%2C0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+  "path": "/api/wallet-profiles/identities",
+  "query": {
+   "namespace": "hyperliquid-mainnet",
+   "addresses": "0xd47587702a91731dc1089b5db0932cf820151a91,0xda744273f80b22412417f7cfe0503f3d721f987d,0xdfd526409007db0d524a62dedaaba7706736d88e,0xf517639a8872e756ac98d3c65507d2ebc25cc032,0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d"
+  },
+  "request": null,
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:30.111Z",
+  "requestType": null
+ },
+ {
+  "id": "bca85d7d8e9478a1",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": "cash"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.752Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "ac7edd76180a7031",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:LLY",
+    "interval": "15m",
+    "startTime": 1793223802385,
+    "endTime": 1793310202392
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:06.768Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "ea820c70e564b77c",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:BOT",
+    "interval": "1m",
+    "startTime": 1793306602889,
+    "endTime": 1793310202889
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:04:02.730Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "2bb323674a8697b4",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:PURRDAT",
+    "interval": "15m",
+    "startTime": 1793223802385,
+    "endTime": 1793310202392
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:06.768Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "edeaa172e5022138",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:MRNA",
+    "interval": "15m",
+    "startTime": 1793223802385,
+    "endTime": 1793310202392
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:06.767Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "09a4d5746b079f16",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "HYPE",
+    "interval": "15m",
+    "startTime": 1793223803082,
+    "endTime": 1793310203095
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:23.030Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "4723a53a1d25e50e",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:RDDT",
+    "interval": "15m",
+    "startTime": 1793223802518,
+    "endTime": 1793310202521
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:06.845Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "1001ef5c2382ede8",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:RIVN",
+    "interval": "15m",
+    "startTime": 1793223802385,
+    "endTime": 1793310202392
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:06.838Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "000f5287d0ec65a6",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "userFees",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.143Z",
+  "requestType": "userFees"
+ },
+ {
+  "id": "824bedc35eded6e2",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "spotMetaAndAssetCtxs"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.008Z",
+  "requestType": "spotMetaAndAssetCtxs"
+ },
+ {
+  "id": "9b2c079362ab7872",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "userAbstraction",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.011Z",
+  "requestType": "userAbstraction"
+ },
+ {
+  "id": "54e01f333233b71a",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "BTC",
+    "interval": "1m",
+    "startTime": 1793306603576,
+    "endTime": 1793310203576
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:04:03.582Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "1a27c9e8bf1bcd62",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:SKHX",
+    "interval": "1m",
+    "startTime": 1793306601969,
+    "endTime": 1793310201969
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:04:07.287Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "3107f2db10354133",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": ""
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.625Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "a90d36a67f642918",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "io:PRL",
+    "interval": "1m",
+    "startTime": 1793306603576,
+    "endTime": 1793310203576
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:04:03.571Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "a05afd9d3eb37540",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": "abcd"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.641Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "8867bd8bd2aed4da",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "io:ANTH",
+    "interval": "1h",
+    "startTime": 1793223801227,
+    "endTime": 1793310201227
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T22:03:09.357Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "c0dc6df3ba7729a0",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": "hyna"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.249Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "97ae61ff5820207f",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "exchangeStatus"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:24.516Z",
+  "requestType": "exchangeStatus"
+ },
+ {
+  "id": "81ef6130a856fa44",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "userNonFundingLedgerUpdates",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": 0,
+   "endTime": 1793310205159
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T22:03:12.654Z",
+  "requestType": "userNonFundingLedgerUpdates"
+ },
+ {
+  "id": "987276e17324b47c",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "spotClearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.000Z",
+  "requestType": "spotClearinghouseState"
+ },
+ {
+  "id": "8fa303a835d3b141",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "allBorrowLendReserveStates"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:25.999Z",
+  "requestType": "allBorrowLendReserveStates"
+ },
+ {
+  "id": "4b8b5d9964fffac9",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": "mkts"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:28.100Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "895a5ff65d2b885a",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "userNonFundingLedgerUpdates",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": 0,
+   "endTime": 1793310213448
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:53:10.724Z",
+  "requestType": "userNonFundingLedgerUpdates"
+ },
+ {
+  "id": "3fb8eedf9b93f7e7",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "userNonFundingLedgerUpdates",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": 0,
+   "endTime": 1793310216986
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:54:49.662Z",
+  "requestType": "userNonFundingLedgerUpdates"
+ },
+ {
+  "id": "165ceb5145d77ed4",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "io:ANTH",
+    "interval": "1d",
+    "startTime": 1790718201227,
+    "endTime": 1793310201227
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T22:03:09.354Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "17b7f02ea952de96",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "borrowLendUserState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.017Z",
+  "requestType": "borrowLendUserState"
+ },
+ {
+  "id": "479e4c46a36bb4de",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "userNonFundingLedgerUpdates",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "startTime": 0,
+   "endTime": 1793310209509
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:52:39.931Z",
+  "requestType": "userNonFundingLedgerUpdates"
+ },
+ {
+  "id": "46d7a79c43f29269",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "userVaultEquities",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.013Z",
+  "requestType": "userVaultEquities"
+ },
+ {
+  "id": "63ec2545ea07fe02",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "perpDexs"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:25.977Z",
+  "requestType": "perpDexs"
+ },
+ {
+  "id": "3c4ac5ed804a3d4b",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": "io"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:28.238Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "3739f4ca792beeaa",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "portfolio",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.014Z",
+  "requestType": "portfolio"
+ },
+ {
+  "id": "e0b21554e35c1a32",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": "vntl"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.104Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "441e28a40c8205c8",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "allPerpMetas"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.010Z",
+  "requestType": "allPerpMetas"
+ },
+ {
+  "id": "2dc33343a7fdba3b",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "spotMeta"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:25.989Z",
+  "requestType": "spotMeta"
+ },
+ {
+  "id": "25931fa7ec3b4d00",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": "para"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.938Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "455dce5e46d97edc",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": "flx"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.897Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "d665d5e138b1d968",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "maxBuilderFee",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "builder": "0xcd254d2a328f7f67c7c6fef930a4757516f7b601"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.134Z",
+  "requestType": "maxBuilderFee"
+ },
+ {
+  "id": "e21c9170f87114ac",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": "xyz"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.763Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "5122543a0bf80f22",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "clearinghouseState",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91",
+   "dex": "km"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:27.466Z",
+  "requestType": "clearinghouseState"
+ },
+ {
+  "id": "7946dd7d8f89ba9c",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "extraAgents",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.130Z",
+  "requestType": "extraAgents"
+ },
+ {
+  "id": "f4543c19a2f38bdb",
+  "method": "POST",
+  "url": "https://api.hyperliquid.xyz/info",
+  "path": "/info",
+  "query": {},
+  "request": {
+   "type": "delegatorSummary",
+   "user": "0x4c2e9d7a1b8f3e6052a7c9d14e8b3f6a0d5c2e91"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.012Z",
+  "requestType": "delegatorSummary"
+ },
+ {
+  "id": "f66118e25798b626",
+  "method": "POST",
+  "url": "https://entropy.io/api/account/sync",
+  "path": "/api/account/sync",
+  "query": {},
+  "request": {},
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:26.021Z",
+  "requestType": null
+ },
+ {
+  "id": "c9b8649ef42dd830",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "io:ANTH",
+    "interval": "1h",
+    "startTime": 1793223803273.7,
+    "endTime": 1793310203273.7
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T22:03:51.620Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "112d803394fdff11",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "BTC",
+    "interval": "1m",
+    "startTime": 1793306712931,
+    "endTime": 1793310312931
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:05:18.652Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "dd040d9a66f993f8",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "io:ANTH",
+    "interval": "1d",
+    "startTime": 1790718203273.7,
+    "endTime": 1793310203273.7
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T22:03:51.722Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "3d1a40fbf0ca38f8",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "HYPE",
+    "interval": "15m",
+    "startTime": 1793223802077,
+    "endTime": 1793310202085
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:55.869Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "9deaf651e5542b08",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:LLY",
+    "interval": "15m",
+    "startTime": 1793223802077,
+    "endTime": 1793310202085
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:55.881Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "0f6b8b025dd8ee78",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:RDDT",
+    "interval": "15m",
+    "startTime": 1793223802236,
+    "endTime": 1793310202241
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:56.256Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "f638fedd95909d4a",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "io:PRL",
+    "interval": "1m",
+    "startTime": 1793306602127,
+    "endTime": 1793310202127
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:04:56.806Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "4b24c09d74dd7447",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:MRNA",
+    "interval": "15m",
+    "startTime": 1793223802077,
+    "endTime": 1793310202085
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:55.881Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "4bd4b21ef41a89ab",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:RIVN",
+    "interval": "15m",
+    "startTime": 1793223802077,
+    "endTime": 1793310202085
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:55.882Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "d3bf6c032dbade89",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:PURRDAT",
+    "interval": "15m",
+    "startTime": 1793223802077,
+    "endTime": 1793310202085
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "markets-4bbb19f7",
+  "capturedAt": "2026-10-29T22:02:55.879Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "b83b56e89616dad0",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:SKHX",
+    "interval": "1m",
+    "startTime": 1793306602126,
+    "endTime": 1793310202126
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:04:56.698Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "90ad4394f8c783cb",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:BOT",
+    "interval": "1m",
+    "startTime": 1793306602127,
+    "endTime": 1793310202127
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:04:56.809Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "a05a37ac97e273de",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "BNB",
+    "interval": "1m",
+    "startTime": 1793306712619,
+    "endTime": 1793310312619
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:05:17.883Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "9ce12531692bef5f",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:AMZN",
+    "interval": "1m",
+    "startTime": 1793306712541,
+    "endTime": 1793310312541
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:05:17.884Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "4c4a7e8f5f8e54a3",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "io:ANTH",
+    "interval": "4h",
+    "startTime": 1790718215301.2,
+    "endTime": 1793310215301.2
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "-35c5ecfa",
+  "capturedAt": "2026-10-29T22:01:13.846Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "3e5f90ed4929372a",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "ZEC",
+    "interval": "1m",
+    "startTime": 1793306713167,
+    "endTime": 1793310313167
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:05:18.679Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "7ac50845176c4cba",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "metaAndAssetCtxs",
+   "dex": "io"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:24.610Z",
+  "requestType": "metaAndAssetCtxs"
+ },
+ {
+  "id": "60d959ec1a704553",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "SAND",
+    "interval": "1m",
+    "startTime": 1793306073636,
+    "endTime": 1793309673636
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:51.653Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "c29cb53bd6522e44",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "metaAndAssetCtxs",
+   "dex": "xyz"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:24.575Z",
+  "requestType": "metaAndAssetCtxs"
+ },
+ {
+  "id": "2a3a048f9829a380",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "metaAndAssetCtxs",
+   "dex": ""
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:24.578Z",
+  "requestType": "metaAndAssetCtxs"
+ },
+ {
+  "id": "9f608a9f794f5bf8",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "WLD",
+    "interval": "1m",
+    "startTime": 1793306062094,
+    "endTime": 1793309662094
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:51.652Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "3640ed38414dbd32",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "metaAndAssetCtxs",
+   "dex": "para"
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "index",
+  "capturedAt": "2026-10-29T21:43:24.608Z",
+  "requestType": "metaAndAssetCtxs"
+ },
+ {
+  "id": "92af4b01da22df6c",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "io:ANTH",
+    "interval": "5m",
+    "startTime": 1793281095001,
+    "endTime": 1793309637481
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:51.655Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "47f663d2f87e6eb2",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "xyz:GLW",
+    "interval": "1m",
+    "startTime": 1793306120701,
+    "endTime": 1793309720701
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:30.136Z",
+  "requestType": "candleSnapshot"
+ },
+ {
+  "id": "82a14b1c6d589007",
+  "method": "POST",
+  "url": "https://entropy.io/api/hyperliquid/info",
+  "path": "/api/hyperliquid/info",
+  "query": {},
+  "request": {
+   "type": "candleSnapshot",
+   "req": {
+    "coin": "STRK",
+    "interval": "1m",
+    "startTime": 1793306036060,
+    "endTime": 1793309636060
+   }
+  },
+  "status": 200,
+  "contentType": "application/json",
+  "route": "feed-c7fc0564",
+  "capturedAt": "2026-10-29T22:03:51.655Z",
+  "requestType": "candleSnapshot"
+ }
+]

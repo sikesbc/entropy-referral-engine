@@ -1,0 +1,1 @@
+{"id":"586d31523e132bb0","method":"GET","url":"https://entropy.io/api/me/following","path":"/api/me/following","query":{},"request":null,"status":200,"contentType":"application/json","route":"feed-c7fc0564","capturedAt":"2026-10-29T22:03:29.224Z","response":{"items":[],"version":"0"}}
