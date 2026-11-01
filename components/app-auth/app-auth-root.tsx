@@ -3,6 +3,7 @@
 import { PrivyProvider } from "@privy-io/react-auth"
 import type { ReactNode } from "react"
 import { LoginModalHost } from "@/components/auth/login-modal-host"
+import { SiteWalletProvider } from "@/lib/referral-site/wallet"
 import { AppIdentityProvider } from "./app-identity"
 import { InviteLoginPrompt } from "./invite-login-prompt"
 import { APP_PRIVY_CONFIG } from "./privy-config"
@@ -15,7 +16,7 @@ export function AppAuthRoot({ children }: { children: ReactNode }) {
     <PrivyProvider appId={appId} config={APP_PRIVY_CONFIG}>
       <AppIdentityProvider>
         <PrivySessionProvider>
-          {children}
+          <SiteWalletProvider>{children}</SiteWalletProvider>
           <LoginModalHost />
           <InviteLoginPrompt />
         </PrivySessionProvider>
