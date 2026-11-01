@@ -23,7 +23,9 @@ export function referralsDemo(value: SearchValue): ReferralsDemo | null {
 }
 
 export function startsSignedIn(pathname: string, demo: string | null): boolean {
-  return pathname.startsWith("/referrals") && demo !== "signedout"
+  return (
+    (pathname.startsWith("/referrals") || pathname.startsWith("/entropy-referrals")) && demo !== "signedout"
+  )
 }
 
 export function demoEligibility(demo: SignupDemo): EligibilityStatus {
