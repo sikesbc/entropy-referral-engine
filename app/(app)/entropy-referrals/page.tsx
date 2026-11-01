@@ -8,7 +8,7 @@ import { requestOrigin } from "@/lib/referral-site/origin"
 export default async function ReferralsPage({ searchParams }: PageProps<"/entropy-referrals">) {
   if (process.env.NEXT_PUBLIC_APP_MODE === "1") {
     const demo = referralsDemo((await searchParams).demo)
-    return <ReferralsScreen origin={await requestOrigin()} demo={demo} />
+    return <ReferralsScreen origin={await requestOrigin()} demo={demo} signedOut={<ReferralsLoginPrompt />} />
   }
   const session = await getServerSession()
   return session.status === "loggedout" ? <ReferralsLoginPrompt /> : <ReferralsDashboard />

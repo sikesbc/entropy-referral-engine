@@ -240,17 +240,19 @@ function LiveReferrals({
   )
 }
 
-function LiveScreen({ origin }: { origin: string }) {
+function LiveScreen({ origin, signedOut }: { origin: string; signedOut?: ReactNode }) {
   const registration = useRegistration()
   const referrals = useReferrals()
   const cached = useCachedSession()
   const router = useRouter()
-  const leaving = registration.status === "signedOut" || registration.status === "unregistered"
+  const leaving =
+    !signedOut && (registration.status === "signedOut" || registration.status === "unregistered")
 
   useEffect(() => {
     if (leaving) router.replace("/")
   }, [leaving, router])
 
+  if (signedOut && registration.status === "signedOut") return signedOut
   if (registration.status === "error") return <LoadError onRetry={registration.retry} />
   const live = registration.status === "registered"
   const me = live ? registration.me : registration.status === "loading" ? cached?.me : undefined
@@ -265,19 +267,39 @@ function LiveScreen({ origin }: { origin: string }) {
   )
 }
 
-function DemoScreen({ origin, demo }: { origin: string; demo: ReferralsDemo }) {
+function DemoScreen({
+  origin,
+  demo,
+  signedOut,
+}: {
+  origin: string
+  demo: ReferralsDemo
+  signedOut?: ReactNode
+}) {
   return (
-    <SignedInOnly fallback={<SignedOut />}>
+    <SignedInOnly fallback={signedOut ?? <SignedOut />}>
       <InviteIgnoredNote />
       <DemoReferrals demo={demo} origin={origin} />
     </SignedInOnly>
   )
 }
 
-export function ReferralsScreen({ origin, demo }: { origin: string; demo: ReferralsDemo | null }) {
+export function ReferralsScreen({
+  origin,
+  demo,
+  signedOut,
+}: {
+  origin: string
+  demo: ReferralsDemo | null
+  signedOut?: ReactNode
+}) {
   return (
     <>
-      {demo ? <DemoScreen origin={origin} demo={demo} /> : <LiveScreen origin={origin} />}
+      {demo ? (
+        <DemoScreen origin={origin} demo={demo} signedOut={signedOut} />
+      ) : (
+        <LiveScreen origin={origin} signedOut={signedOut} />
+      )}
       <div id={INTRO_ROOT_ID} />
     </>
   )
